@@ -1,0 +1,25 @@
+{
+  "name": "start",
+  "version": "1.0.1",
+  "description": "our first web together",
+  "main": "index.js",
+  "scripts": {
+    "test": "lol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiikugo/Tea-Shop.git"
+  },
+  "keywords": [
+    "iroh",
+    "tea",
+    "chiku",
+    "wabona"
+  ],
+  "author": "chiku and wabone",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/chiikugo/Tea-Shop/issues"
+  },
+  "homepage": "https://github.com/chiikugo/Tea-Shop#readme"
+}

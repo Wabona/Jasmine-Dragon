@@ -1,0 +1,42 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0px; 
+    left:0px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 1;
+    background-color: rgb(145, 145, 228);
+  }
+ 
+  .active {
+    color: white;
+    font-size: 40px;
+  }
+  .tea {
+    margin-left: auto;
+    color: white;
+  }
+  .therest {
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    overflow: hidden;
+    left: 100px;
+
+  }
+
+  .lotus 
+  {
+
+    z-index: 0;
+  }

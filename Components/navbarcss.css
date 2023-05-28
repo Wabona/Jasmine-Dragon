@@ -7,12 +7,12 @@
     top: 0px; 
     left:0px; 
     width: 100%;
-    display: flex;
+
     align-items: center;
-    height: 60px;
+    height: 80px;
     float: left;
     text-align: center;
-    padding: 14px 16px;
+
     text-decoration: none;
     z-index: 1;
     background-color: rgb(145, 145, 228);

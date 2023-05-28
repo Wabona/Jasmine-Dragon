@@ -7,15 +7,13 @@
     top: 0px; 
     left:0px; 
     width: 100%;
-
     align-items: center;
     height: 80px;
     float: left;
     text-align: center;
-
     text-decoration: none;
     z-index: 1;
-    background-color: rgb(145, 145, 228);
+    background-color: rgb(130, 214, 161);
   }
  
   .active {

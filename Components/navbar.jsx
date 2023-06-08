@@ -1,22 +1,18 @@
-import "./navbarcss.css"
+import React from "react";
+import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
-export default function navbar() {
-return (
-<header>
-<nav className="nav">
+import "./navbarcss.css";
 
-<div class="topnav">
-                
-               <div> <a class="active" href="#home">Home</a> </div>
-                <div class="therest">
-                <a class="tea" href="#news">Teas</a>
-                <a href="#contact">Poems</a>
-                </div>
 
-    </div>
-    
-</nav>
-</header>
-)
+
+export default function Navbar() {
+  return (
+    <>
+      <nav className="nav">
+     
+     Home
+      </nav>
+      
+      </>
+  );
 }
-

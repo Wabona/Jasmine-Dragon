@@ -3,17 +3,42 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from "../Components/navbar"
-import Body from "./body.jsx"
+import Body from "../Components/body"
+import { BrowserRouter, Route, Link, RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Tea from "../Components/tea"
+
+const router = createBrowserRouter([
+  {
+    path: "/tea",
+    element: <Tea/>,
+
+
+ 
+  },
+  {
+    path:"/home",
+    element: (
+    <div>
+      <Body/>
+      <Link to="/tea">Tea</Link>
+    </div>
+    )
+
+  },
+  {
+    path:"/",
+    element: <Body/>
+  }
+]);
 
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
+ return (
     <>
-    <div>
-        <Nav/>
-        <Body/>
-    </div>
+    
+
+    <RouterProvider router={router}/>
     </>
   )
 }
